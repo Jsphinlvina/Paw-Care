@@ -81,3 +81,7 @@ nav ul li:not(:last-child) {
    font-weight: 700;
    font-size: 50px;
 }
+
+#cat {
+   max-width: 300px;
+}

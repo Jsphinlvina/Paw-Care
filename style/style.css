@@ -1,0 +1,89 @@
+* {
+   margin: 0;
+   padding: 0;
+   scroll-behavior: smooth;
+   box-sizing: border-box;
+}
+
+body {
+   background-image: url(../img/background.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+/*************************************/
+/* General */
+/*************************************/
+
+.warnafont {
+   color: #161a66;
+}
+
+.jenisfont {
+   font-family: 'Work Sans', sans-serif;
+}
+
+/*************************************/
+/* Navigation */
+/*************************************/
+
+nav ul li:not(:last-child) {
+   margin-right: 50px;
+}
+
+/*************************************/
+/* Home */
+/*************************************/
+
+#home {
+   padding-top: 50px;
+   height: 100vh;
+}
+
+#dog {
+   width: 100%;
+   max-width: 300px;
+   border-radius: 70px;
+   height: auto;
+}
+
+#vet {
+   background-color: #161a66;
+   color: white;
+}
+
+.judul {
+   font-size: 6vw;
+   font-weight: 500;
+}
+
+/*************************************/
+/* About Us */
+/*************************************/
+   
+#about {
+   background-color: #d9d9d9;
+   margin: 0 0 100px 0;
+}
+
+#us {
+   color: white;
+}
+
+#usbackground {
+   background-color: #161a66;
+}
+
+/*************************************/
+/* Offer */
+/*************************************/
+
+#offer {
+   font-weight: 700;
+   font-size: 50px;
+}
+
+#cat {
+   max-width: 300px;
+}

@@ -87,3 +87,7 @@ nav ul li:not(:last-child) {
 #cat {
    max-width: 300px;
 }
+
+#icon{
+   width: 50px;
+}

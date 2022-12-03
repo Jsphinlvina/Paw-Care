@@ -54,14 +54,14 @@ nav ul li:not(:last-child) {
 }
 
 .judul {
-   font-size: 6vw;
+   font-size: 70px;
    font-weight: 500;
 }
 
 /*************************************/
 /* About Us */
 /*************************************/
-   
+
 #about {
    background-color: #d9d9d9;
    margin: 0 0 100px 0;

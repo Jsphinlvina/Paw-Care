@@ -16,17 +16,26 @@ body {
 /* General */
 /*************************************/
 
-.warnafont {
+.fontcolor {
    color: #161a66;
 }
 
-.jenisfont {
+.fontstyle {
    font-family: 'Work Sans', sans-serif;
 }
 
 /*************************************/
 /* Navigation */
 /*************************************/
+
+.background-nav {
+   background-color: rgba(0, 0, 0, 0);
+}
+
+.background-nav.active {
+   background-color: #fff;
+   transition: all ease-out 0.5s;
+}
 
 nav ul li:not(:last-child) {
    margin-right: 50px;
@@ -53,7 +62,7 @@ nav ul li:not(:last-child) {
    color: white;
 }
 
-.judul {
+.title-home {
    font-size: 6vw;
    font-weight: 500;
 }
@@ -88,6 +97,18 @@ nav ul li:not(:last-child) {
    max-width: 300px;
 }
 
-#icon{
+#icon {
    width: 50px;
+}
+
+/*************************************/
+/*  Articles  */
+/*************************************/
+
+#articles {
+   background-color: #d9d9d9;
+}
+
+#learn {
+   font-weight: 700;
 }

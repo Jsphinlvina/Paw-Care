@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+ }
+ 
+ body {
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ 
+ /*************************************/
+ /* General */
+ /*************************************/
+ 
+ .fontwarna {
+    color: #161a66;
+ }
+ 
+ .jenisfont {
+    font-family: 'Work Sans', sans-serif;
+ }
+ 
+ /*************************************/
+ /* Navigation */
+ /*************************************/
+ 
+ nav ul li:not(:last-child) {
+    margin-right: 50px;
+    color: #161a66;
+ }
+ 
+/* Tulisan */
+.meet {
+    color: #161a66;
+    font-size: 5.3rem;
+}
+
+.guarantee {
+    font-size: 1.3rem;
+}
+
+/* button */
+.btn:link {
+    color:#161a66;
+    background-color: white;
+}
+
+.btn:hover {
+    background-color:#161a66;
+    color: white;
+    border-color: white;
+}

@@ -28,15 +28,6 @@ body {
 /* Navigation */
 /*************************************/
 
-.background-nav {
-   background-color: rgba(0, 0, 0, 0);
-}
-
-.background-nav.active {
-   background-color: #fff;
-   transition: all ease-out 0.5s;
-}
-
 nav ul li:not(:last-child) {
    margin-right: 50px;
 }
@@ -112,3 +103,13 @@ nav ul li:not(:last-child) {
 #learn {
    font-weight: 700;
 }
+
+/* .color {
+   background-color: #161a66;
+}
+
+#circle {
+   background-color: #161a66;
+   border-radius: 100%;
+   color: #161a66;
+} */

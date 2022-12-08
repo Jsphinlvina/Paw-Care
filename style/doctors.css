@@ -1,55 +1,75 @@
 * {
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-    box-sizing: border-box;
- }
- 
- body {
-    background-image: url(../img/background.png);
-    background-repeat: no-repeat;
-    background-size: cover;
- }
- 
- /*************************************/
- /* General */
- /*************************************/
- 
- .fontwarna {
-    color: #161a66;
- }
- 
- .jenisfont {
-    font-family: 'Work Sans', sans-serif;
- }
- 
- /*************************************/
- /* Navigation */
- /*************************************/
- 
- nav ul li:not(:last-child) {
-    margin-right: 50px;
-    color: #161a66;
- }
- 
+   margin: 0;
+   padding: 0;
+   scroll-behavior: smooth;
+   box-sizing: border-box;
+}
+
+body {
+   background-image: url(../img/background.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+/*************************************/
+/* General */
+/*************************************/
+
+.fontcolor {
+   color: #161a66;
+}
+
+.fontstyle {
+   font-family: 'Work Sans', sans-serif;
+}
+
+/*************************************/
+/* Navigation */
+/*************************************/
+
+nav ul li:not(:last-child) {
+   margin-right: 50px;
+}
+
 /* Tulisan */
 .meet {
-    color: #161a66;
-    font-size: 5.3rem;
+   color: #161a66;
+   font-size: 70px;
+   font-weight: 600;
 }
 
 .guarantee {
-    font-size: 1.3rem;
+   font-size: 1.3rem;
+}
+
+/* size */
+#doctors {
+   height: calc(100vh-35px);
+}
+
+/* logo  */
+#vertarinarian {
+   width: 200px;
+   padding-top: 100px;
 }
 
 /* button */
 .btn:link {
-    color:#161a66;
-    background-color: white;
+   color: #161a66;
+   background-color: white;
 }
 
 .btn:hover {
-    background-color:#161a66;
-    color: white;
-    border-color: white;
+   background-color: #161a66;
+   color: white;
+   border-color: white;
+}
+
+/*************************************/
+/*  Footer  */
+/*************************************/
+#footer {
+   background-color: #161a66;
+   height: 27px;
 }

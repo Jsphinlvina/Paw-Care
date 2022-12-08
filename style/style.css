@@ -38,7 +38,7 @@ nav ul li:not(:last-child) {
 
 #home {
    padding-top: 50px;
-   height: 100vh;
+   height: calc(100vh - 70px);
 }
 
 #dog {
@@ -54,7 +54,7 @@ nav ul li:not(:last-child) {
 }
 
 .title-home {
-   font-size: 6vw;
+   font-size: 60px;
    font-weight: 500;
 }
 
@@ -104,12 +104,23 @@ nav ul li:not(:last-child) {
    font-weight: 700;
 }
 
-/* .color {
+#color {
+   border: 2px solid #161a66;
+}
+
+/*************************************/
+/*  Footer  */
+/*************************************/
+#footer {
    background-color: #161a66;
 }
 
-#circle {
-   background-color: #161a66;
-   border-radius: 100%;
-   color: #161a66;
-} */
+#logo {
+   width: 200px;
+   background-color: white;
+   border-radius: 20%;
+}
+
+.footer-fontcolor {
+   color: white;
+}

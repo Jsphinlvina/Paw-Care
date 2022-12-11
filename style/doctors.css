@@ -45,7 +45,7 @@ nav ul li:not(:last-child) {
 
 /* size */
 #doctors {
-   height: calc(100vh-35px);
+   height: calc(100vh - 98px);
 }
 
 /* logo  */

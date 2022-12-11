@@ -48,6 +48,13 @@ nav ul li:not(:last-child) {
    height: calc(100vh - 98px);
 }
 
+#josephine {
+   object-fit: cover;
+   object-position: top;
+   height: 20rem;
+   width: 100%;
+}
+
 /* logo  */
 #vertarinarian {
    width: 200px;

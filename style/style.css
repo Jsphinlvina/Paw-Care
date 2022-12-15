@@ -42,7 +42,7 @@ nav ul li:not(:last-child) {
 }
 
 #dog {
-   width: 100% ;
+   width: 100%;
    max-width: 300px;
    border-radius: 70px;
    height: auto;
@@ -58,6 +58,9 @@ nav ul li:not(:last-child) {
    font-weight: 500;
 }
 
+.subtitle-home {
+   font-size: 20px;
+}
 
 /*************************************/
 /* About Us */
@@ -72,7 +75,7 @@ nav ul li:not(:last-child) {
    color: white;
 }
 
-#usbackground {
+#us-background {
    background-color: #161a66;
 }
 
@@ -109,6 +112,15 @@ nav ul li:not(:last-child) {
    border: 2px solid #161a66;
 }
 
+#articles3-title {
+   font-size: 18px;
+   font-weight: 500;
+}
+
+.texttransform {
+   text-transform: capitalize;
+}
+
 /*************************************/
 /*  Footer  */
 /*************************************/
@@ -124,4 +136,22 @@ nav ul li:not(:last-child) {
 
 .footer-fontcolor {
    color: white;
+}
+
+/*************************************/
+/*  Media Query  */
+/*************************************/
+
+/* 1440px (Laptop L) */
+@media (max-width: 1440px) and (min-width: 1366px) {
+   .title-home {
+      font-size: 100px;
+   }
+   .subtitle-home {
+      font-size: 30px;
+   }
+
+   #dog {
+      max-width: 500px;
+   }
 }

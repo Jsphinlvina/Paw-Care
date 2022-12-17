@@ -220,7 +220,7 @@ nav ul li:not(:last-child) {
 @media (max-width: 426px) {
    /* home */
    .title-home {
-      font-size: 25px;
+      font-size: 30px;
    }
 
    .subtitle-home {

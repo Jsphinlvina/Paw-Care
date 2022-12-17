@@ -62,10 +62,28 @@
                   appointment now
                   and talk to one of our professional veterinarian!
                </p>
-               <button id="vet" class="btn border mb-5 rounded-5 mt-3 py-3 fs-5 w-50 ">Make an Appointment</button>
+               <button id="vet" class="btn border mb-5 rounded-5 mt-3 w-50 ">Make an Appointment</button>
             </div>
             <div class="col-md-4 d-flex align-items-center justify-content-center">
-               <img src="img/dog.jpg" alt="dog" id="dog">
+               <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                     <div class="carousel-item active d-flex justify-content-center">
+                        <img src="img/cat3.jpeg" class="d-block w-100" alt="dog" id="dog">
+                     </div>
+                     <div class="carousel-item d-flex justify-content-center">
+                        <img src="img/dog3.jpeg" class="d-block w-100" alt="dog" id="dog">
+                     </div>
+                     <div class="carousel-item d-flex justify-content-center">
+                        <img src="img/cat2.jpeg" class="d-block w-100" alt="cat" id="dog">
+                     </div>
+                     <div class="carousel-item d-flex justify-content-center">
+                        <img src="img/dog2.jpeg" class="d-block w-100" alt="dog" id="dog">
+                     </div>
+                     <div class="carousel-item d-flex justify-content-center">
+                        <img src="img/cat.jpeg" class="d-block w-100" alt="cat" id="dog">
+                     </div>
+                  </div>
+               </div>
             </div>
             <div class="col-md-1"></div>
          </div>
@@ -79,7 +97,8 @@
          <div class="row d-flex justify-content-center" id="us">
             <div class="col-md-9 text-center py-4   border rounded-4" id="us-background">
                <h1 class="pb-4">About Us</h1>
-               <p>Our veterinary facility and creature clinic is controlled by Owner Josephine and Rafael , who is an
+               <p id="us-text">Our veterinary facility and creature clinic is controlled by Owner Josephine and Rafael ,
+                  who is an
                   authorized, experienced Bandung veterinarian. Our group is focused on instructing our customers in how
                   to keep your pets solid all year, with great nourishment and exercise.</p>
             </div>
@@ -130,8 +149,8 @@
       <!-- Card -->
       <div class="container py-5 d-flex justify-content-center">
          <div class="row">
-            <div class="col-md-4 d-flex justify-content-center">
-               <div class="card" style="width: 18rem;">
+            <div class="col-md-4 d-flex pb-3 justify-content-center">
+               <div class="card articles-img">
                   <img src="img/articles 1.jpg" alt="articles1" class="card-imgd-top">
                   <div class="card-body">
                      <h5 class=" py-2 texttransform card-title">How to keep your pet clean</h5>
@@ -141,8 +160,8 @@
                   </div>
                </div>
             </div>
-            <div class="col-md-4 d-flex justify-content-center">
-               <div class="card" style="width: 18rem;">
+            <div class="col-md-4 d-flex pb-3 justify-content-center">
+               <div class="card articles-img">
                   <img src="img/articles 2.jpg" alt="articles2" class="card-img-top">
                   <div class="card-body">
                      <h5 class=" py-2 texttransform ">The right nutritious food for your pet</h5>
@@ -152,8 +171,8 @@
                   </div>
                </div>
             </div>
-            <div class="col-md-4 d-flex justify-content-center">
-               <div class="card" style="width: 18rem;">
+            <div class="col-md-4 d-flex pb-3 justify-content-center">
+               <div class="card articles-img">
                   <img src="img/articles 3.jpg" alt="articles3" class="card-img-top">
                   <div class="card-body">
                      <h5 class="py-2 texttransform card-title" id="articles3-title">How to make pets feel safe and
@@ -175,10 +194,10 @@
    <footer class="h-100" id="footer">
       <div class="container">
          <div class="row d-flex justify-content-center py-5 footer-fontcolor fontstyle">
-            <div class="col-md-4 d-flex align-items-center ">
+            <div class="col-md-4 d-flex align-items-center justify-content-center" id="logo-position">
                <img class="mx-5" src="img/logo1.png" alt="logo" id="logo">
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 pb-5">
                <h3>Opening Hours</h4><br>
                   <p>Mon-Fri: 10am - 8pm</p>
                   <p>Sat-Sun: 12am - 10pm</p>

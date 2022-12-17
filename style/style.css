@@ -37,7 +37,6 @@ nav ul li:not(:last-child) {
 /*************************************/
 
 #home {
-   padding-top: 50px;
    height: calc(100vh - 70px);
 }
 
@@ -51,6 +50,8 @@ nav ul li:not(:last-child) {
 #vet {
    background-color: #161a66;
    color: white;
+   font-size: 20px;
+   padding: 16px 12px;
 }
 
 .title-home {
@@ -77,6 +78,10 @@ nav ul li:not(:last-child) {
 
 #us-background {
    background-color: #161a66;
+}
+
+#us-text {
+   font-size: 16px;
 }
 
 /*************************************/
@@ -121,6 +126,10 @@ nav ul li:not(:last-child) {
    text-transform: capitalize;
 }
 
+.articles-img {
+   width: 18rem;
+}
+
 /*************************************/
 /*  Footer  */
 /*************************************/
@@ -132,7 +141,13 @@ nav ul li:not(:last-child) {
    width: 200px;
    background-color: white;
    border-radius: 20%;
+   padding-bottom: 0px;
 }
+
+#logo-position{
+   padding-bottom: 0px;
+}
+
 
 .footer-fontcolor {
    color: white;
@@ -144,6 +159,7 @@ nav ul li:not(:last-child) {
 
 /* 1440px (Laptop L) */
 @media (min-width: 1366px) {
+   /* home */
    .title-home {
       font-size: 70px;
    }
@@ -154,4 +170,87 @@ nav ul li:not(:last-child) {
    #dog {
       max-width: 500px;
    }
+}
+
+/* 768px (Tablet) */
+@media (max-width: 992px) {
+   /* home */
+   .title-home {
+      font-size: 40px;
+   }
+   .subtitle-home {
+      font-size: 15px;
+   }
+
+   #dog {
+      max-width: 500px;
+   }
+
+   #vet {
+      font-size: 12px;
+   }
+
+   /* offer */
+   #offer {
+      font-weight: 700;
+      font-size: 50px;
+   }
+
+   #cat {
+      max-width: 200px;
+   }
+
+   #icon {
+      width: 40px;
+   }
+
+   /* articles */
+   .articles-img {
+      width: 15rem;
+   }
+
+   /* footer */
+   #logo {
+      max-width: 130px;
+   }
+}
+
+/* 425px 375px 320px (Mobile) */
+@media (max-width: 426px) {
+   /* home */
+   .title-home {
+      font-size: 25px;
+   }
+
+   .subtitle-home {
+      font-size: 12px;
+   }
+
+   #dog {
+      max-width: 120px;
+   }
+
+   #vet {
+      font-size: 10px;
+      padding: 10px 8px;
+   }
+
+   /* about us */
+   #us-text {
+      font-size: 12px;
+   }
+
+   /* offer */
+   #offer {
+      font-size: 30px;
+   }
+   
+   /* footer */
+   #logo {
+      max-width: 100px;
+   }
+
+   #logo-position{
+      padding-bottom: 50px;
+   }   
 }

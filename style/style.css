@@ -184,6 +184,7 @@ nav ul li:not(:last-child) {
 
    #dog {
       max-width: 500px;
+      border-radius: 30px;
    }
 
    #vet {

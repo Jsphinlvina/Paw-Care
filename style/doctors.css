@@ -65,6 +65,10 @@ nav ul li:not(:last-child) {
    width: 100%;
 }
 
+#josephine-add{
+   color: white;
+}
+
 /* logo  */
 #vertarinarian {
    width: 200px;
@@ -229,6 +233,26 @@ p {
 
    .vet-description{
       font-size: 20px;
+   }
+}
+
+/* 768px (Tablet) */
+@media (max-width: 992px) {
+   .vet-name {
+      font-size: 30px;
+   }
+
+   .vet-description{
+      font-size: 12px;
+   }
+
+   #josephine {
+      height: 200px;
+   }
+
+   #josephine-add{
+   font-size: 15px;
+
    }
 }
 

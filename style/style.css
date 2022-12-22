@@ -223,8 +223,6 @@ nav ul li:not(:last-child) {
 @media (max-width: 426px) {
    /* home */
    #home {
-      height: auto;
-      padding: 2rem 0;
       margin-bottom: 2rem;
    }
 

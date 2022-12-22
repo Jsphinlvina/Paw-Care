@@ -43,6 +43,16 @@ nav ul li:not(:last-child) {
    font-size: 1.3rem;
 }
 
+.vet-name{
+   font-size: 60px;
+}
+
+.vet-description{
+   font-size: 16px;
+   text-indent: 2rem; 
+   text-align: justify;
+}
+
 /* size */
 #doctors {
    height: calc(100vh - 98px);
@@ -62,7 +72,7 @@ nav ul li:not(:last-child) {
 }
 
 /* button */
-.btn:link {
+.btn {
    color: #161a66;
    background-color: white;
 }
@@ -79,4 +89,159 @@ nav ul li:not(:last-child) {
 #footer {
    background-color: #161a66;
    height: 27px;
+}
+
+/*************************************/
+/*  Query Appointment  */
+/*************************************/
+
+@media screen and (min-width: 601px) {
+   .appoint {
+      font-size: 3.6rem;
+      color: #161a66;
+   }
+}
+
+@media screen and (max-width: 600px) {
+   .appoint {
+      font-size: 2.1rem;
+      color: #161a66;
+   }
+}
+
+input[type='text'],
+[type='email'],
+#sel,
+option {
+   width: 100%;
+   padding: 0.3rem;
+}
+
+input[type='date'] {
+   font-size: 75%;
+}
+
+.formtext {
+   color: #161a66;
+}
+
+label {
+   font-size: medium;
+}
+
+p {
+   text-align: justify;
+}
+
+@media screen and (min-width: 778px) {
+   .col-sm-5 {
+      margin-left: 2rem;
+   }
+}
+
+@media screen and (max-width: 777px) {
+   .col-sm-5 {
+      margin-left: 6rem;
+   }
+}
+
+@media screen and (max-width: 570px) {
+   .col-sm-5 {
+      margin-left: 0;
+      margin-right: 2rem;
+   }
+}
+
+.time {
+   outline: 2px dashed #161a66;
+   border-radius: 5px;
+   padding: 2rem;
+   padding-right: 3rem;
+   width: 95%;
+}
+
+.hour {
+   font-size: 1.6rem;
+   line-height: 3.3rem;
+   color: #161a66;
+}
+
+.pickhour {
+   width: 1.2rem;
+   height: 1.2rem;
+   filter: grayscale(0.6);
+}
+
+.btn:link {
+   background-color: #161a66;
+   color: white;
+}
+
+.btn:hover {
+   outline-color: #161a66;
+}
+
+.confirm {
+   background-color: #161a66;
+   color: white;
+   border-color: #161a66;
+   width: 10.5rem;
+   height: 2.5rem;
+   border-radius: 1.5rem;
+   cursor: pointer;
+   bottom: 0;
+}
+
+.confirm:hover {
+   background-color: white;
+   color: #161a66;
+   border-color: #161a66;
+}
+
+.divbutton {
+   margin-top: 1.5rem;
+}
+
+.vet {
+   font-size: 0.8rem;
+   border-radius: 1rem;
+   padding: 0.4rem;
+   background-color: white;
+   color: #161a66;
+   border-color: #161a66;
+}
+
+.vet:hover {
+   background-color: #161a66;
+   color: white;
+   border-color: white;
+}
+
+/*************************************/
+/*  Query Vet 1  */
+/*************************************/
+
+/* 1440px (Laptop L) */
+@media (min-width: 1410px) {
+   .vet-name {
+      font-size: 71px;
+   }
+
+   .vet-description{
+      font-size: 20px;
+   }
+}
+
+
+
+@media screen and (max-width: 601px) {
+   .vet-name {
+      font-size: 4rem;
+   }
+}
+
+@media screen and (max-width: 600px) {
+   .vet-name {
+      font-size: 2.1rem;
+   }
 }

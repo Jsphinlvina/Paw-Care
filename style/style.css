@@ -168,7 +168,7 @@ nav ul li:not(:last-child) {
    .home-position {
       position: relative;
       top: 50%;
-      translate: transformY(50%);
+      transform: translateY(50%);
    }
    #dog {
       max-width: 500px;

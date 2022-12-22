@@ -1,12 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" href="img/logo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style/doctors.css">
+    <title>PawCare</title>
+
 </head>
-<body>
-    
+
+<body class="fontstyle">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-light ">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo2.png" width="200">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav fs-5 ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link fontcolor" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  fontcolor" href="doctors.html">Doctors</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fontcolor " href="#">Contact Us</a>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Content -->
+    <form class="container mt-2 mb-4">
+        <div class="row">
+            <div class="col-sm mb-4">
+                <h1 class="appoint">Make an Appointment With Our Vet &nbsp;</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6 ms-1 mb-5">
+                <div class="calendar">
+                    <div class="form" style="font-size: 1.4rem;">
+                        <h4 class="formtext">Patient name</h4>
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="x" required>
+                            <label for="floatingInput">Input patient's name</label>
+                        </div>
+                        <h4 class="formtext">Phone number</h4>
+                        <div class="form-floating mb-3">
+                            <input type="text" class="form-control" id="floatingInput" placeholder="x" required>
+                            <label for="floatingInput">Input phone number</label>
+                        </div>
+                        <h4 class="formtext">Email address</h4>
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="x" required>
+                            <label for="floatingInput">name@example.com</label>
+                        </div>
+                        <h4 class="formtext">Choose the vet</h4>
+                        <select class="form-select" id="sel" aria-label="Default select example">
+                            <option selected value="vet 1" required>drh. Josephine Alvina L., M. Vet, Sp. KH</option>
+                            <option value="vet2">drh. Rafael Cavin E.T., M. Vet, Sp. BH</option>
+                        </select>
+                        <a href="doctors.html"><button type="button" class="vet mt-3">Get to know our vets</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-5 ms-auto">
+                <div class="time">
+                    <div class="hour">
+                        <h4>Time</h4>
+                        <input type="radio" id="op1" name="pickhour" class="pickhour" required>
+                        <label for="op1">12.00</label><br>
+                        <input type="radio" id="op2" name="pickhour" class="pickhour">
+                        <label for="op2">13.15</label><br>
+                        <input type="radio" id="op3" name="pickhour" class="pickhour">
+                        <label for="op3">14.30</label><br>
+                        <input type="radio" id="op4" name="pickhour" class="pickhour">
+                        <label for="op4">16.00</label><br>
+                        <input type="radio" id="op5" name="pickhour" class="pickhour">
+                        <label for="op5">17.15</label>
+                        <div class="date">
+                            <h4 class="formtext">Pick a date</h4>
+                            <input type="date" id="birthdaytime" name="date" required style="width: 50%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="formtext">
+                    <h4 class="formtext">Cancellation Clause</h4>
+                    <p>Please fill the form completely and carefully, the date and time displayed are fixed. <b>Maximum
+                            cancellation</b> is a day before the date appointed and will be charged <b>50%</b> of the
+                        service payment. <b>Patient's absence without cancellation notice</b> (or cancellation later
+                        than a day before appointed date) during the date and time appointed will be charged <b>100%</b>
+                        of the service payment. <u>Contact us through our social media for cancellation.</u></p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <div class="col-sm-10">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" required>
+                        <label class="formtext" for="flexCheckDefault">
+                            <b>I have read and willing to follow the cancellation clause of making the appointment with
+                                PawCare Clinic.</b>
+                        </label>
+                    </div>
+                    <div class="divbutton text-center">
+                        <button class="confirm mt-3">Confirm</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </form>
+    <!-- End Content -->
+
+    <!-- Footer -->
+    <footer id="footer"></footer>
+    <!-- End Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

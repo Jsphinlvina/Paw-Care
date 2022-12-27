@@ -1,0 +1,72 @@
+/*************************************/
+/*  Query Vet 1  */
+/*************************************/
+
+/* 1440px (Laptop L) */
+@media (min-width: 1410px) {
+   .vet-name {
+      font-size: 71px;
+   }
+
+   .vet-description {
+      font-size: 20px;
+   }
+
+   #vet-button {
+      height: 50px;
+      font-size: 20px;
+   }
+
+   #josephine {
+      height: 350px;
+   }
+}
+
+/* 768px (Tablet) */
+@media (max-width: 992px) {
+   .vet-name {
+      font-size: 30px;
+   }
+
+   .vet-description {
+      font-size: 12px;
+   }
+
+   #josephine {
+      height: 200px;
+   }
+
+   #josephine-add {
+      font-size: 15px;
+   }
+}
+
+@media screen and (max-width: 601px) {
+   .vet-name {
+      font-size: 4rem;
+   }
+}
+
+@media screen and (max-width: 600px) {
+   .vet-name {
+      font-size: 2.1rem;
+   }
+}
+
+/*************************************/
+/*  Query Vet 2  */
+/*************************************/
+
+@media screen and (min-width: 601px) {
+   .vetname {
+      font-size: 4rem;
+      color: #161a66;
+   }
+}
+
+@media screen and (max-width: 600px) {
+   .vetname {
+      font-size: 2.1rem;
+      color: #161a66;
+   }
+}

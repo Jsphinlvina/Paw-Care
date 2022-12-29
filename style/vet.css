@@ -1,6 +1,14 @@
 /*************************************/
 /*  Query Vet 1  */
 /*************************************/
+#josephine-card {
+   width: 18rem;
+   background-color: #161a66;
+}
+
+/*************************************/
+/*  Query Vet 1  */
+/*************************************/
 
 /* 1440px (Laptop L) */
 @media (min-width: 1410px) {
@@ -32,41 +40,53 @@
       font-size: 12px;
    }
 
+   #vet-button {
+      height: 40px;
+      font-size: 10px;
+   }
+
    #josephine {
-      height: 200px;
+      height: 180px;
    }
 
    #josephine-add {
-      font-size: 15px;
+      font-size: 10px;
+   }
+
+   #josephine-card {
+      width: 10rem;
    }
 }
 
-@media screen and (max-width: 601px) {
+/* 425px 375px 320px (Mobile) */
+@media (max-width: 426px) {
+   #doctors {
+      height: auto;
+      padding-top: 40px;
+   }
    .vet-name {
-      font-size: 4rem;
+      font-size: 30px;
    }
-}
 
-@media screen and (max-width: 600px) {
-   .vet-name {
-      font-size: 2.1rem;
+   .vet-description {
+      font-size: 12px;
    }
-}
 
-/*************************************/
-/*  Query Vet 2  */
-/*************************************/
-
-@media screen and (min-width: 601px) {
-   .vetname {
-      font-size: 4rem;
-      color: #161a66;
+   #vet-button {
+      height: 40px;
+      font-size: 10px;
    }
-}
 
-@media screen and (max-width: 600px) {
-   .vetname {
-      font-size: 2.1rem;
-      color: #161a66;
+   #josephine {
+      height: 180px;
+   }
+
+   #josephine-add {
+      font-size: 10px;
+   }
+
+   #josephine-card {
+      width: 10rem;
+      height: 20rem;
    }
 }

@@ -49,12 +49,12 @@
     <!-- End Navbar -->
 
     <!-- Content -->
-    <div class="container d-flex align-items-center" id="doctors">
-        <div class="row">
-            <div class="col-sm-8 mb-4">
-                <h1 class="vetname">drh. Rafael Cavin E.T.,<br>M. Vet, Sp. BH</h1>
-
-                <div class="isi" style="text-indent: 2rem; color:#161a66; text-align: justify;">
+    <div class="container d-flex align-items-center fontstyle" id="doctors">
+        <div class="row d-flex justify-content-center">
+            <div class="col-sm-8">
+                <h1 class="vet-name fontcolor">drh. Rafael Cavin E.T.,<br>
+                    M. Vet, Sp. BH</h1>
+                <div class="isi fontcolor vet-description">
                     <br>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto nihil adipisci, aspernatur soluta
                         exercitationem reiciendis molestiae rem fugiat praesentium? Natus quia rem quisquam repellendus
@@ -67,12 +67,13 @@
                         sit nostrum architecto natus? Ipsum fugit excepturi ab!</p>
                 </div>
             </div>
-            <div class="col-md-4 d-flex justify-content-center mb-4 text-center">
-                <div class="card shadow-lg" style="width: 18rem; background-color: #161a66">
-                    <img src="img/vet2.jpg" class="card-img-top" alt="drh. Rafael" style="height: 20rem; width: 100%">
+            <div class="col-md-4 d-flex justify-content-center align-items-center text-center">
+                <div class="card shadow-lg" id="josephine-card">
+                    <img src="img/vet2.jpg" class="card-img-top" alt="drh. Rafael" id="josephine">
                     <div class="card-body">
-                        <h5 class="card-title" style="color: white">drh. Rafael Cavin E.T.,<br>M. Vet, Sp. BH</h5>
-                        <a href="appointment.html" class="btn mt-3">Make an appointment</a>
+                        <h5 class="card-title" id="josephine-add">drh. Rafael Cavin E.T.,<br>
+                            M. Vet, Sp. BH</h5>
+                        <a href="appointment.html" class="btn btn-doc mt-3" id="vet-button">Make an appointment</a>
                     </div>
                 </div>
             </div>
@@ -82,7 +83,7 @@
     <!-- End Content -->
 
     <!-- Footer -->
-    <footer id="footer"></footer>
+    <footer id="footer" class="footer-vet"></footer>
     <!-- End Footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"

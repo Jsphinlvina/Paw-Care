@@ -47,11 +47,25 @@ nav ul li:not(:last-child) {
    height: auto;
 }
 
+/* Button */
 #vet {
    background-color: #161a66;
    color: white;
    font-size: 20px;
    padding: 16px 12px;
+   transition: all 0.5s;
+}
+
+#vet:hover {
+   transform: translateY(-3px);
+   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+   background-color: #ffffff44;
+   color: #161a66;
+}
+
+#vet:active {
+   transform: translateY(-3px);
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .title-home {
@@ -157,7 +171,7 @@ nav ul li:not(:last-child) {
 /*************************************/
 
 /* 1440px (Laptop L) */
-@media (min-width: 1366px) {
+@media only screen and (min-width: 1366px) {
    /* home */
    .title-home {
       font-size: 70px;
@@ -176,7 +190,7 @@ nav ul li:not(:last-child) {
 }
 
 /* 768px (Tablet) */
-@media (max-width: 992px) {
+@media only screen and (max-width: 992px) {
    /* home */
    .title-home {
       font-size: 40px;
@@ -220,7 +234,7 @@ nav ul li:not(:last-child) {
 }
 
 /* 425px 375px 320px (Mobile) */
-@media (max-width: 426px) {
+@media only screen and (max-width: 426px) {
    /* home */
    #home {
       height: auto;

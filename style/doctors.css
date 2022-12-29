@@ -46,7 +46,7 @@ nav ul li:not(:last-child) {
    width: 16rem;
    bottom: 0rem;
    margin-left: 12rem;
-   z-index: -1;
+   z-index: 1;
 }
 
 #rc {
@@ -66,7 +66,7 @@ nav ul li:not(:last-child) {
 /* Tulisan */
 .meet {
    color: #161a66;
-   font-size: 70px;
+   font-size: 10rem;
    font-weight: 600;
 }
 
@@ -89,6 +89,11 @@ nav ul li:not(:last-child) {
    height: calc(100vh - 98px);
 }
 
+#doctors-card {
+   width: 18rem;
+   background-color: #161a66;
+}
+
 #josephine {
    object-fit: cover;
    object-position: top;
@@ -107,12 +112,12 @@ nav ul li:not(:last-child) {
 }
 
 /* button */
-.btn {
+.btn-doc {
    color: #161a66;
    background-color: white;
 }
 
-.btn:hover {
+.btn-doc:hover {
    background-color: #161a66;
    color: white;
    border-color: white;
@@ -124,23 +129,19 @@ nav ul li:not(:last-child) {
 #footer {
    background-color: #161a66;
    height: 27px;
+   z-index: 1;
 }
 
 /*************************************/
 /*  Query Doctors  */
 /*************************************/
-@media screen and (min-width: 320px) and (max-width: 700px) {
-   #cardbawah {
-      margin-bottom: 2rem;
-   }
-
+@media only screen and (min-width: 320px) and (max-width: 700px) {
    .card-title {
       font-size: 1.3rem;
    }
 
    .card {
       height: 25rem;
-      z-index: -2;
    }
 
    .meet {
@@ -156,6 +157,10 @@ nav ul li:not(:last-child) {
    .guarantee {
       font-size: 1rem;
       text-align: center;
+   }
+
+   #doctors-card {
+      width: 16rem;
    }
 
    #rc {
@@ -179,12 +184,15 @@ nav ul li:not(:last-child) {
       bottom: -44rem;
    }
 
+   .footer-vet {
+      bottom: -20rem !important;
+   }
+
    .veticon {
       height: 6rem;
       width: 6rem;
       bottom: -43rem;
       margin-left: 0rem;
-      z-index: -1;
    }
 }
 
@@ -239,7 +247,7 @@ nav ul li:not(:last-child) {
    }
 
    .guarantee {
-      font-size: 4rem;
+      font-size: 5rem;
    }
 
    .card-title {
@@ -282,7 +290,7 @@ nav ul li:not(:last-child) {
 
 @media screen and (min-width: 1300px) {
    .meet {
-      font-size: 6rem;
+      font-size: 8rem;
    }
 
    .guarantee {
@@ -317,8 +325,8 @@ nav ul li:not(:last-child) {
 
    .veticon {
       /* position: absolute; */
-      height: 10rem;
-      width: 10rem;
+      height: 15rem;
+      width: 15rem;
       bottom: 0.1rem;
       margin-left: 10rem;
       z-index: -1;

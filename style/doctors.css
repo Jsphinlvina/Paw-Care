@@ -185,18 +185,18 @@ nav ul li:not(:last-child) {
    }
 
    .footer-vet {
-      bottom: -20rem !important;
+      bottom: -26.5rem !important;
    }
 
    .veticon {
-      height: 6rem;
-      width: 6rem;
+      height: 7rem;
+      width: 7rem;
       bottom: -43rem;
       margin-left: 0rem;
    }
 }
 
-@media screen and (min-width: 766px) and (max-width: 1023px) {
+@media screen and (min-width: 768px) {
    .card-title {
       font-size: 0.7rem;
    }
@@ -233,8 +233,8 @@ nav ul li:not(:last-child) {
 
    .veticon {
       position: absolute;
-      height: 8rem;
-      width: 8rem;
+      height: 10rem;
+      width: 10rem;
       bottom: 1rem;
       margin-left: 6rem;
       z-index: -1;
@@ -288,25 +288,27 @@ nav ul li:not(:last-child) {
    }
 }
 
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1366px) {
    .meet {
-      font-size: 8rem;
+      margin-top: 4rem;
+      font-size: 6rem;
    }
 
    .guarantee {
-      font-size: 2rem;
+      font-size: 1.5rem;
    }
 
    .card-title {
-      font-size: 1.4rem;
+      font-size: 1.1rem;
    }
 
    .card {
-      height: 35rem;
+      margin-top: 4rem;
+      height: 30rem;
    }
 
    a.btn {
-      font-size: 1.4rem;
+      font-size: 1.1rem;
    }
 
    #rc {
@@ -319,14 +321,61 @@ nav ul li:not(:last-child) {
    #josephine {
       object-fit: cover;
       object-position: top;
-      height: 400px;
+      height: 352px;
       width: 100%;
    }
 
    .veticon {
       /* position: absolute; */
-      height: 15rem;
-      width: 15rem;
+      height: 11.4rem;
+      width: 11.4rem;
+      bottom: 0.1rem;
+      margin-left: 10rem;
+      z-index: -1;
+   }
+}
+
+@media screen and (min-width: 1440px) {
+   .meet {
+      margin-top: 4rem;
+      font-size: 6rem;
+   }
+
+   .guarantee {
+      font-size: 1.5rem;
+   }
+
+   .card-title {
+      font-size: 1.1rem;
+   }
+
+   .card {
+      margin-top: 4rem;
+      height: 30rem;
+   }
+
+   a.btn {
+      font-size: 1.1rem;
+   }
+
+   #rc {
+      object-fit: cover;
+      object-position: top;
+      height: 352px;
+      width: 100%;
+   }
+
+   #josephine {
+      object-fit: cover;
+      object-position: top;
+      height: 352px;
+      width: 100%;
+   }
+
+   .veticon {
+      /* position: absolute; */
+      height: 11.4rem;
+      width: 11.4rem;
       bottom: 0.1rem;
       margin-left: 10rem;
       z-index: -1;

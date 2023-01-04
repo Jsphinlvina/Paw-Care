@@ -1,3 +1,5 @@
+/* 2272029 - Josephine Alvina Luwia */
+/* 2272041 - Rafael Cavin Emmanuel Tuasuun */
 * {
    margin: 0;
    padding: 0;
@@ -24,6 +26,9 @@ body {
    font-family: 'Work Sans', sans-serif;
 }
 
+.hide {
+   overflow: hidden;
+}
 /*************************************/
 /* Navigation */
 /*************************************/
@@ -176,25 +181,29 @@ nav ul li:not(:last-child) {
    .title-home {
       font-size: 70px;
    }
+
    .subtitle-home {
       font-size: 23px;
    }
+
    .home-position {
       position: relative;
       top: 50%;
       transform: translateY(50%);
    }
+
    #dog {
       max-width: 300px;
    }
 }
 
 /* 768px (Tablet) */
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 993px) {
    /* home */
    .title-home {
       font-size: 40px;
    }
+
    .subtitle-home {
       font-size: 15px;
    }
@@ -211,7 +220,7 @@ nav ul li:not(:last-child) {
    /* offer */
    #offer {
       font-weight: 700;
-      font-size: 50px;
+      font-size: 40px;
    }
 
    #cat {
@@ -219,7 +228,15 @@ nav ul li:not(:last-child) {
    }
 
    #icon {
-      width: 40px;
+      width: 35px;
+   }
+
+   .offer-title {
+      font-size: 1.5rem;
+   }
+
+   .offer-text {
+      font-size: 13px;
    }
 
    /* articles */
@@ -230,6 +247,22 @@ nav ul li:not(:last-child) {
    /* footer */
    #logo {
       max-width: 130px;
+   }
+}
+
+/* 768px (Tablet) */
+@media only screen and (max-width: 800px) {
+   /* articles */
+   .articles-img {
+      width: 13rem;
+   }
+
+   #articles3-title {
+      font-size: 16px;
+   }
+
+   #articles3-text {
+      font-size: 14.5px;
    }
 }
 

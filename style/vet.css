@@ -32,6 +32,36 @@
    }
 }
 
+/* Laptop */
+@media (min-width: 1024px) and (max-width: 1025px) {
+   .vet-name {
+      font-size: 50px;
+   }
+
+   .vet-description {
+      font-size: 15px;
+   }
+
+   #vet-button {
+      height: 30px;
+      font-size: 10px;
+   }
+
+   #josephine {
+      height: 270px;
+   }
+
+   #josephine-add {
+      font-size: 17px;
+   }
+
+   #josephine-card {
+      width: 15rem;
+      height: 25rem;
+   }
+
+}
+
 /* 768px (Tablet) */
 @media (max-width: 992px) {
    .vet-name {

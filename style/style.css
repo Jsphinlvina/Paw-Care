@@ -252,6 +252,11 @@ nav ul li:not(:last-child) {
 
 /* 768px (Tablet) */
 @media only screen and (max-width: 800px) {
+   /* home */
+   #dog{
+      max-width: 300px;
+      border-radius: 30px;
+   }
    /* articles */
    .articles-img {
       width: 13rem;

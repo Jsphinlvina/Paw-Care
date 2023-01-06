@@ -138,6 +138,22 @@ nav ul li:not(:last-child) {
 /*************************************/
 /*  Query Doctors  */
 /*************************************/
+@media only screen and (max-width: 456px) {
+   .paragraf-position {
+      padding: 0 70px;
+   }
+}
+@media only screen and (max-width: 376px) {
+   .paragraf-position {
+      padding: 0 45px;
+   }
+}
+@media only screen and (max-width: 320px) {
+   .paragraf-position {
+      padding: 0 20px;
+   }
+}
+
 @media only screen and (min-width: 320px) and (max-width: 700px) {
    .card-title {
       font-size: 1.3rem;
@@ -192,7 +208,7 @@ nav ul li:not(:last-child) {
    }
 }
 
-@media screen and (min-width: 320px){
+@media screen and (min-width: 320px) {
    .veticon {
       height: 10rem;
       width: 10rem;
@@ -201,7 +217,7 @@ nav ul li:not(:last-child) {
    }
 }
 
-@media screen and (min-width: 375px){
+@media screen and (min-width: 375px) {
    .veticon {
       height: 10rem;
       width: 10rem;
@@ -210,7 +226,7 @@ nav ul li:not(:last-child) {
    }
 }
 
-@media screen and (min-width: 425px){
+@media screen and (min-width: 425px) {
    .veticon {
       height: 10rem;
       width: 10rem;

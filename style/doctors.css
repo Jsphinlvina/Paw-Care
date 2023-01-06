@@ -140,17 +140,17 @@ nav ul li:not(:last-child) {
 /*************************************/
 @media only screen and (max-width: 456px) {
    .paragraf-position {
-      padding: 0 70px;
+      padding: 0 65px;
    }
 }
 @media only screen and (max-width: 376px) {
    .paragraf-position {
-      padding: 0 45px;
+      padding: 0 40px;
    }
 }
 @media only screen and (max-width: 320px) {
    .paragraf-position {
-      padding: 0 20px;
+      padding: 0 15px;
    }
 }
 

@@ -143,6 +143,60 @@
     }
 }
 
+@media screen and (min-width: 576px){
+    .judul {
+        font-size: 2.6rem;
+        color: #161a66;
+    }
+
+    .phonenumber, .emailaddress, .insta, .location{
+        background-color: white;
+        box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        -webkit-box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        -moz-box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        padding: 1rem;
+        color: #161a66;
+        margin-bottom: 2rem;
+        width: 200px;
+    }
+
+    .phoneimg, .emailimg, .instaimg, .locationimg {
+        float: left;
+        margin-right: 2rem;
+        width: 40px;
+        height: 40px;
+    }
+
+    .message button {
+        background-color: #161a66;
+        font-size: 1.2rem;
+        width: 100%;
+        height: 3rem;
+        color: white;
+        border-radius: 6px;
+        margin-top: 2rem;
+        border-color: white;
+    }
+
+    .message {
+        background-color: white;
+        box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        -webkit-box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        -moz-box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        padding: 1rem;
+        width: 100%;
+        color: #161a66;
+        margin-bottom: 2rem;
+        height: 31.5rem;
+    }
+}
+
+@media screen and (min-width: 614px){
+    .message {
+        height: 33.5rem;
+    }
+}
+
 @media screen and (min-width: 768px){
     .judul {
         font-size: 3rem;

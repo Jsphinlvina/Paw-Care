@@ -43,7 +43,9 @@ nav ul li:not(:last-child) {
 /*************************************/
 
 #home {
-   height: calc(100vh - 70px);
+   height: auto;
+   min-height: calc(100vh - 70px);
+   padding-top: 35px;
 }
 
 #dog {
@@ -254,7 +256,7 @@ nav ul li:not(:last-child) {
 /* 768px (Tablet) */
 @media only screen and (max-width: 800px) {
    /* home */
-   #dog{
+   #dog {
       max-width: 300px;
       border-radius: 30px;
    }
@@ -272,15 +274,25 @@ nav ul li:not(:last-child) {
    }
 }
 
+@media only screen and (max-width: 768px) {
+   .title-home {
+      font-size: 30px;
+   }
+   .subtitle-home {
+      font-size: 12px;
+   }
+   #dog {
+      max-width: 150px;
+   }
+   #vet {
+      font-size: 12px;
+      padding: 10px 0px;
+   }
+}
+
 /* 425px 375px 320px (Mobile) */
 @media only screen and (max-width: 426px) {
    /* home */
-   #home {
-      height: auto;
-      padding: 2rem 0;
-      margin-bottom: 2rem;
-   }
-
    .title-home {
       font-size: 35px;
    }
